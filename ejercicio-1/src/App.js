@@ -9,7 +9,7 @@ function App() {
   let characterName = { protagonist: 'Mario', antagonist: 'Bowser', helper: 'Yoshi' };
 
   return (
-    <div className="content-container">
+    <div className="content-wrapper">
       <div className='characters-wrapper'>
         {characterCard(yoshiPic, characterName.helper)}
         {characterCard(bowserPic, characterName.antagonist)}
@@ -28,8 +28,8 @@ function characterCard(charImg, charName) {
 
   return (
     <div className="card">
-      <img src={charImg}></img>
-      <p>{charName}</p>
+      <img alt="Imagen del personaje {charnName}"  src={charImg}></img>
+      <h2>{charName}</h2>
     </div>
   );
 }
