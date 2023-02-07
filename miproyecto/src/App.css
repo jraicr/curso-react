@@ -1,0 +1,46 @@
+body {
+  margin: 2rem;
+  background: #0e0e10;
+}
+
+.App {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header img {
+  max-width: 200px;
+  margin-top: 20px;
+}
+
+.react-label a {
+  display: inline-block;
+  color: #0e0e10;
+  text-decoration: none;
+  transition: transform 0.4s;
+}
+
+.react-label a:hover {
+  transform: scale(1.4) rotate(-4deg);
+  z-index: 2;
+}
+
+.react-label a::before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 11rem;
+  height: 6rem;
+  background-color: var(--bgcolor, #FEBF16);
+  z-index: -1;
+  padding: 0 4px;
+  transform: rotate(-2deg) translate(-4px, -2px);
+  transition: transform 0.5s;
+}
