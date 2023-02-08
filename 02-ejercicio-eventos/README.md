@@ -20,7 +20,7 @@ En el directorio del proyecto, puedes ejecutar:
 #### `npm run dev`
 
 Ejecuta la aplicación en modo desarrollo.
-Abre [http://localhost:3000](http://localhost:3000) para verla en tu navegador.
+Abre [http://localhost:5173](http://localhost:5173) para verla en tu navegador.
 
 La página se recargará cuando realices cambios.
 También puedes ver cualquier error de lint en la consola.
@@ -32,5 +32,3 @@ Agrupa correctamente React en modo de producción y optimiza la compilación par
 
 La compilación está minificada y los nombres de archivo incluyen los hashes.\
 Tu aplicación está lista para ser desplegada.
-
-Consulta la sección sobre [deployment](https://facebook.github.io/create-react-app/docs/deployment) para más información.
