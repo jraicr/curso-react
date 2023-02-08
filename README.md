@@ -3,7 +3,7 @@ En este repositorio estarán las prácticas y ejercicios del curso de React de J
 
 
 ### Nota importante
-Sólo el primer ejercicio se ha realizado con el creador de proyectos de react-make-app, en los siguientes se ha
+Sólo el primer ejercicio se ha realizado con el creador de proyectos de create-react-app, en los siguientes se ha
 utilizado [Vite](https://lenguajejs.com/automatizadores/vite/guia-tutorial-inicial-de-vite/).
 
 Comandos Vite:
